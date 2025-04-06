@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -6,7 +5,7 @@ import SectionTitle from '@/components/common/SectionTitle';
 import ProjectCard from '@/components/common/ProjectCard';
 import ServiceCard from '@/components/common/ServiceCard';
 import TestimonialCard from '@/components/common/TestimonialCard';
-import { ArrowRight, MessageSquare, Hammer, Ruler, Hardhat, Construction, Building2, Settings, BarChart3, Shield } from 'lucide-react';
+import { ArrowRight, MessageSquare, Hammer, Ruler, HardHat, Construction, Building2, Settings, BarChart3, Shield } from 'lucide-react';
 
 const Index = () => {
   // Sample data for featured projects
