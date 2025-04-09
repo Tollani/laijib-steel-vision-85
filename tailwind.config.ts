@@ -59,9 +59,10 @@ export default {
           dark: '#2A323C'
         },
         charcoal: '#222222',
-        orange: {
-          DEFAULT: '#FF6B35',
-          light: '#FF8F66'
+        grassgreen: {
+          DEFAULT: '#4CAF50',
+          light: '#81C784',
+          dark: '#2E7D32'
         }
 			},
 			borderRadius: {

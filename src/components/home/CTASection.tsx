@@ -14,7 +14,7 @@ const CTASection = () => {
             Contact our team for a consultation and let us help bring your vision to life with quality steel construction solutions.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild size="lg" className="bg-orange hover:bg-orange-light">
+            <Button asChild size="lg" className="bg-grassgreen hover:bg-grassgreen-light">
               <Link to="/contact">Request a Quote</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">

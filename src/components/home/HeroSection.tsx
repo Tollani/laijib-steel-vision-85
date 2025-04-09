@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/70"></div>
       <div className="container mx-auto px-4 h-full flex items-center relative z-10">
         <div className="max-w-3xl text-white">
-          <span className="inline-block bg-orange text-white px-4 py-1 rounded-full text-sm font-semibold mb-6">
+          <span className="inline-block bg-grassgreen text-white px-4 py-1 rounded-full text-sm font-semibold mb-6">
             Premier Steel Construction
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -26,7 +26,7 @@ const HeroSection = () => {
             Precision-engineered steel structures with innovation and reliability for Nigeria's growing infrastructure needs.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button asChild size="lg" className="bg-orange hover:bg-orange-light">
+            <Button asChild size="lg" className="bg-grassgreen hover:bg-grassgreen-light">
               <Link to="/contact">Get a Free Consultation</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-white border-white hover:bg-white/10">

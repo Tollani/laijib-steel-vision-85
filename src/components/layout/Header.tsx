@@ -46,14 +46,14 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`font-medium transition-colors hover:text-orange ${
-                  location.pathname === item.path ? 'text-orange font-semibold' : 'text-steel'
+                className={`font-medium transition-colors hover:text-grassgreen ${
+                  location.pathname === item.path ? 'text-grassgreen font-semibold' : 'text-steel'
                 }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-orange hover:bg-orange-light">
+            <Button size="sm" className="bg-grassgreen hover:bg-grassgreen-light">
               <Phone size={18} className="mr-2" /> Get a Quote
             </Button>
           </nav>
@@ -75,14 +75,14 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`font-medium py-2 transition-colors hover:text-orange ${
-                  location.pathname === item.path ? 'text-orange font-semibold' : 'text-steel'
+                className={`font-medium py-2 transition-colors hover:text-grassgreen ${
+                  location.pathname === item.path ? 'text-grassgreen font-semibold' : 'text-steel'
                 }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-orange hover:bg-orange-light w-full">
+            <Button size="sm" className="bg-grassgreen hover:bg-grassgreen-light w-full">
               <Phone size={18} className="mr-2" /> Get a Quote
             </Button>
           </nav>
