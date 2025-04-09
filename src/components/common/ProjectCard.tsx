@@ -2,7 +2,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 interface ProjectCardProps {
   id: string;
@@ -21,14 +20,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="group relative overflow-hidden rounded-lg transition-all duration-300 hover:shadow-lg">
-      <div className="overflow-hidden">
-        <AspectRatio ratio={16/10} className="w-full">
-          <img
-            src={image}
-            alt={title}
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
-          />
-        </AspectRatio>
+      <div className="aspect-w-16 aspect-h-10 overflow-hidden">
+        <img
+          src={image}
+          alt={title}
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+        />
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-90"></div>
       <div className="absolute bottom-0 left-0 p-6 text-white">
