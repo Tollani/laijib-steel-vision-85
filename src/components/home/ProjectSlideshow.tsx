@@ -11,16 +11,20 @@ const ProjectSlideshow = () => {
   const [api, setApi] = React.useState<CarouselApi>();
   const projectImages = [
     {
-      src: "/lovable-uploads/3afb79ee-5393-415c-892e-820ad3269c34.png",
-      alt: "Multi-story residential building under construction"
+      src: "/lovable-uploads/583086d0-81c0-4b7e-b36e-4376abb942d6.png",
+      alt: "Decorative metal fence with intricate design"
     },
     {
-      src: "/lovable-uploads/58a5d805-3c0f-449d-a5cf-8c672e9041f2.png",
-      alt: "Steel water tower structure"
+      src: "/lovable-uploads/205dc646-d5c3-4674-9e52-8e2bf32d4608.png",
+      alt: "Construction workers in safety gear at a worksite"
     },
     {
-      src: "/lovable-uploads/b190a44b-dcf3-4abe-9ab9-a8e266f4f332.png",
-      alt: "Row of modern townhouses under construction"
+      src: "/lovable-uploads/40b42f1e-9f53-4a37-a5da-3ca49cad43a9.png",
+      alt: "Steel frame structure for buildings under construction"
+    },
+    {
+      src: "/lovable-uploads/74beb545-679c-4dc6-9bdd-48ffedab8179.png",
+      alt: "Construction worker overseeing steel frame installation at a multi-story building"
     }
   ];
 
