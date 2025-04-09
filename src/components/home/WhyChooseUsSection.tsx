@@ -62,7 +62,9 @@ const WhyChooseUsSection = () => {
           </div>
           
           <div className="relative">
-            <ProjectSlideshow />
+            <div className="rounded-lg overflow-hidden">
+              <ProjectSlideshow />
+            </div>
             <div className="absolute -bottom-6 -left-6 bg-grassgreen text-white p-6 rounded-lg shadow-xl">
               <p className="text-xl font-bold mb-1">15+ Years</p>
               <p className="text-sm">Industry Experience</p>

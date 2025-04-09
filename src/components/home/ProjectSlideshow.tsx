@@ -1,14 +1,14 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  type CarouselApi,
 } from '@/components/ui/carousel';
 
 const ProjectSlideshow = () => {
+  const [api, setApi] = React.useState<CarouselApi>();
   const projectImages = [
     {
       src: "/lovable-uploads/3afb79ee-5393-415c-892e-820ad3269c34.png",
@@ -24,24 +24,41 @@ const ProjectSlideshow = () => {
     }
   ];
 
+  useEffect(() => {
+    if (!api) return;
+
+    // Set up auto-scrolling every 5 seconds
+    const autoScrollInterval = setInterval(() => {
+      api.scrollNext();
+    }, 5000);
+
+    // Clean up interval on unmount
+    return () => clearInterval(autoScrollInterval);
+  }, [api]);
+
   return (
-    <div className="relative w-full h-full">
-      <Carousel className="w-full">
+    <div className="relative w-full">
+      <Carousel 
+        setApi={setApi} 
+        className="w-full" 
+        opts={{
+          loop: true,
+          align: "start",
+        }}
+      >
         <CarouselContent>
           {projectImages.map((image, index) => (
             <CarouselItem key={index}>
-              <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden">
+              <div className="overflow-hidden">
                 <img 
                   src={image.src} 
                   alt={image.alt} 
-                  className="w-full h-full object-cover"
+                  className="w-full object-cover"
                 />
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="lg:flex hidden" />
-        <CarouselNext className="lg:flex hidden" />
       </Carousel>
     </div>
   );
