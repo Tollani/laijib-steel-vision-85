@@ -54,8 +54,8 @@ const FeaturedProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild variant="outline" className="border-orange text-orange hover:bg-orange hover:text-white">
-            <Link to="/projects">View All Projects <ArrowRight size={16} className="ml-2" /></Link>
+          <Button asChild variant="outline" className="border-2 border-orange text-orange hover:bg-orange hover:text-white transition-all duration-300 shadow-md transform hover:scale-105">
+            <Link to="/projects" className="flex items-center">View All Projects <ArrowRight size={16} className="ml-2 animate-pulse" /></Link>
           </Button>
         </div>
       </div>
