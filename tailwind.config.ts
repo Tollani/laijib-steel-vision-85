@@ -54,9 +54,9 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
         steel: {
-          DEFAULT: '#FFFAF0', /* Changed from #3D4855 to a cream white */
-          light: '#FFF8E1',   /* Changed from #5A6978 to a lighter cream */
-          dark: '#F5F5DC'     /* Changed from #2A323C to a warmer cream */
+          DEFAULT: '#3D4855',
+          light: '#5A6978',
+          dark: '#2A323C'
         },
         charcoal: '#222222',
         grassgreen: {
@@ -110,4 +110,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-
