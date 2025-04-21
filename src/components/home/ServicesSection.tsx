@@ -36,7 +36,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 ocean-bg">
       <div className="container mx-auto px-4">
         <SectionTitle 
           title="Our Services" 
@@ -56,7 +56,7 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild variant="outline" className="border-orange text-orange hover:bg-orange hover:text-white">
+          <Button asChild variant="outline" className="border-redaccent text-redaccent hover:bg-redaccent hover:text-white">
             <Link to="/services">View All Services <ArrowRight size={16} className="ml-2" /></Link>
           </Button>
         </div>

@@ -46,8 +46,8 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`font-medium transition-colors hover:text-grassgreen ${
-                  location.pathname === item.path ? 'text-grassgreen font-semibold' : 'text-steel'
+                className={`font-medium transition-colors hover:text-redaccent ${
+                  location.pathname === item.path ? 'text-redaccent font-semibold' : 'text-steel'
                 }`}
               >
                 {item.name}
@@ -82,7 +82,7 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-grassgreen hover:bg-grassgreen-light w-full">
+            <Button size="sm" className="bg-redaccent hover:bg-redaccent-light w-full">
               <Phone size={18} className="mr-2" /> Get a Quote
             </Button>
           </nav>
