@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -19,7 +20,7 @@ const Services = () => {
         'Quality control and testing of all fabricated products',
         'Large-scale industrial fabrication capabilities',
       ],
-      image: '/public/lovable-uploads/a20bf783-1648-474f-9158-acfb51e378ae.png',
+      image: '/lovable-uploads/a20bf783-1648-474f-9158-acfb51e378ae.png',
     },
     {
       id: 'design',
@@ -33,7 +34,7 @@ const Services = () => {
         '3D modeling and visualization services',
         'Value engineering to optimize cost and performance',
       ],
-      image: '/public/lovable-uploads/71356a05-5001-4223-8472-548c3f9beee5.png',
+      image: '/lovable-uploads/71356a05-5001-4223-8472-548c3f9beee5.png',
     },
     {
       id: 'installation',
@@ -47,7 +48,7 @@ const Services = () => {
         'Project schedule adherence and milestone tracking',
         'Quality inspection and documentation',
       ],
-      image: '/public/lovable-uploads/27c5f576-03b3-4976-9467-e4615f33f4b4.png',
+      image: '/lovable-uploads/27c5f576-03b3-4976-9467-e4615f33f4b4.png',
     },
     {
       id: 'construction',
@@ -61,7 +62,7 @@ const Services = () => {
         'Office buildings and multi-story structures',
         'Architectural features and decorative steel elements',
       ],
-      image: '/public/lovable-uploads/882ec527-16a3-47ea-ba02-f52a807b3cc7.png',
+      image: '/lovable-uploads/882ec527-16a3-47ea-ba02-f52a807b3cc7.png',
     },
     {
       id: 'maintenance',
@@ -75,7 +76,7 @@ const Services = () => {
         'Reinforcement of existing structures',
         'Emergency repair services',
       ],
-      image: '/public/lovable-uploads/5a6db9c9-051e-4060-90c1-4f630d4b0eeb.png',
+      image: '/lovable-uploads/5a6db9c9-051e-4060-90c1-4f630d4b0eeb.png',
     },
     {
       id: 'consultation',
@@ -89,7 +90,7 @@ const Services = () => {
         'Regulatory compliance and permit assistance',
         'Project timeline development',
       ],
-      image: '/public/lovable-uploads/5a6db9c9-051e-4060-90c1-4f630d4b0eeb.png',
+      image: '/lovable-uploads/5a6db9c9-051e-4060-90c1-4f630d4b0eeb.png',
     },
   ];
 
