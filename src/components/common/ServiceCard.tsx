@@ -18,19 +18,18 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   return (
     <div
-      className={`rounded-2xl p-6 shadow-md border border-white/30 transition-all duration-300 group
-        bg-white/40
-        hover:bg-white/60
-        backdrop-blur-md
+      className="rounded-3xl p-6 shadow-lg border border-white/40 transition-all duration-300 group
+        bg-white/30
+        hover:bg-blue-100/80
+        backdrop-blur-xl
         hover:shadow-2xl
-        hover:-translate-y-2
+        hover:-translate-y-3
         cursor-pointer
-        `}
+        "
       style={{
-        background: 'linear-gradient(135deg, #D3E4FDcc 0%, #e9f6ff88 100%)',
-        boxShadow:
-          '0 8px 24px 0 rgba(31,38,135,0.10), 0 1.5px 0px 0px rgba(14,165,233,0.04)',
-        border: '1.5px solid rgba(255, 255, 255, 0.20)',
+        background: 'linear-gradient(135deg, #e3f2fd 70%, #d8ebfb 100%)', // light blue glassmorphism
+        boxShadow: '0 8px 24px 0 rgba(31,38,135,0.13), 0 1.5px 0px 0px rgba(14,165,233,0.06)',
+        border: '1.5px solid rgba(255, 255, 255, 0.18)',
       }}
     >
       <div className="rounded-full bg-redaccent/10 p-3 w-fit mb-4 text-redaccent">

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Construction, Ruler, Hammer, Building2 } from 'lucide-react';
@@ -38,7 +39,7 @@ const ServicesSection = () => {
     <section
       className="py-20"
       style={{
-        backgroundColor: '#d7ffcf',
+        backgroundColor: '#b9f8c3', // more vivid, greener pastel/lime
         color: '#000',
       }}
     >
@@ -71,3 +72,4 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
+
