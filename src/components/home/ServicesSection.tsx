@@ -36,13 +36,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section
-      className="py-20"
-      style={{
-        backgroundColor: '#b9f8c3', // more vivid, greener pastel/lime
-        color: '#000',
-      }}
-    >
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <SectionTitle 
           title="Our Services" 
@@ -72,4 +66,3 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
-
