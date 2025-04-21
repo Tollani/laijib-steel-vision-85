@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Construction, Ruler, Hammer, Building2 } from 'lucide-react';
@@ -36,12 +35,17 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20" style={{ backgroundColor: '#F2FCE2', color: '#000000' }}>
+    <section
+      className="py-20"
+      style={{
+        backgroundColor: '#d7ffcf',
+        color: '#000',
+      }}
+    >
       <div className="container mx-auto px-4">
         <SectionTitle 
           title="Our Services" 
           subtitle="Comprehensive steel construction solutions tailored to meet your project requirements with quality and precision."
-          // Override SectionTitle text color to black for subtitle if needed
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -67,4 +71,3 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
-
