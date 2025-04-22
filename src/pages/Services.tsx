@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -48,8 +47,7 @@ const Services = () => {
         'Project schedule adherence and milestone tracking',
         'Quality inspection and documentation',
       ],
-      image: '/lovable-uploads/photo_6028199742439277780_x (1).jpg
-',
+      image: '/lovable-uploads/photo_6028199742439277780_x (1).jpg',
     },
     {
       id: 'construction',
@@ -300,4 +298,3 @@ const Services = () => {
 };
 
 export default Services;
-
