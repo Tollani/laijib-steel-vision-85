@@ -20,7 +20,7 @@ const Services = () => {
         'Quality control and testing of all fabricated products',
         'Large-scale industrial fabrication capabilities',
       ],
-      image: '/lovable-uploads/205dc646-d5c3-4674-9e52-8e2bf32d4608.png',
+      image: '/lovable-uploads/7547f88b-3fb4-448e-a802-8983ddd56f46.jpg',
     },
     {
       id: 'design',
