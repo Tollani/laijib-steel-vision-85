@@ -34,7 +34,7 @@ const Services = () => {
         '3D modeling and visualization services',
         'Value engineering to optimize cost and performance',
       ],
-      image: '/lovable-uploads/3afb79ee-5393-415c-892e-820ad3269c34.png',
+      image: '/lovable-uploads/939d6a45-d043-477a-a77d-5dcb191fc887.jpg',
     },
     {
       id: 'installation',
@@ -48,7 +48,8 @@ const Services = () => {
         'Project schedule adherence and milestone tracking',
         'Quality inspection and documentation',
       ],
-      image: '/lovable-uploads/4044509a-c7b5-47e0-9cd0-6d9fc060143e.png',
+      image: '/lovable-uploads/photo_6028199742439277780_x (1).jpg
+',
     },
     {
       id: 'construction',
@@ -62,7 +63,7 @@ const Services = () => {
         'Office buildings and multi-story structures',
         'Architectural features and decorative steel elements',
       ],
-      image: '/lovable-uploads/40b42f1e-9f53-4a37-a5da-3ca49cad43a9.png',
+      image: '/lovable-uploads/photo_6028199742439277781_x (1).jpg',
     },
     {
       id: 'maintenance',
@@ -76,7 +77,7 @@ const Services = () => {
         'Reinforcement of existing structures',
         'Emergency repair services',
       ],
-      image: '/lovable-uploads/58a5d805-3c0f-449d-a5cf-8c672e9041f2.png',
+      image: '/lovable-uploads/photo_6028199742439277763_y (2).jpg',
     },
     {
       id: 'consultation',
