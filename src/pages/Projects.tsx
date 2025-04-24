@@ -23,7 +23,7 @@ const Projects = () => {
       id: '1',
       title: 'Commercial Office Tower',
       category: 'commercial',
-      image: 'https://images.unsplash.com/photo-1487887235947-a955ef187fcc',
+      image: '/lovable-uploads/7547f88b-3fb4-448e-a802-8983ddd56f46.jpg',
       location: 'Abuja Central Business District',
     },
     {
