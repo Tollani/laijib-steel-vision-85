@@ -41,7 +41,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-steel">Our Location</h3>
-                    <p className="text-gray-600">123 Industrial Zone, Abuja, Nigeria</p>
+                    <p className="text-gray-600"> 11 Kamina Close Wuse Zone 3, Abuja.
+
+ </p>
                   </div>
                 </div>
 
@@ -52,10 +54,10 @@ const Contact = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-steel">Phone Number</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+2348012345678" className="hover:text-orange">+234 801 234 5678</a>
+                      <a href="tel:+2348036046209" className="hover:text-orange">+234 8036046209</a>
                     </p>
                     <p className="text-gray-600">
-                      <a href="tel:+2349087654321" className="hover:text-orange">+234 908 765 4321</a>
+                      <a href="tel:+2348024476623" className="hover:text-orange">+234 8024476623</a>
                     </p>
                   </div>
                 </div>
@@ -151,12 +153,12 @@ const Contact = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-orange hover:bg-gray-100">
-              <a href="tel:+2348012345678">
+              <a href="tel:+2348036046209">
                 <Phone size={18} className="mr-2" /> Call Now
               </a>
             </Button>
             <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-              <a href="https://wa.me/2348012345678">
+              <a href="https://wa.me/2348036046209">
                 <MessageSquare size={18} className="mr-2" /> WhatsApp Us
               </a>
             </Button>
