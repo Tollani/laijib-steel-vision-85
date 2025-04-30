@@ -49,7 +49,7 @@ const Projects = () => {
     },
     {
       id: '5',
-      title: 'Shopping Mall Development',
+      title: 'Luxury Apartment',
       category: 'commercial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.28.jpeg',
       location: 'Lifecamp, Abuja',
