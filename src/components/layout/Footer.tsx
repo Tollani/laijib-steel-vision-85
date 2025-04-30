@@ -60,11 +60,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="mr-3 text-grassgreen flex-shrink-0 mt-1" size={18} />
-                <span className="text-gray-300">123 Industrial Zone, Abuja, Nigeria</span>
+                <span className="text-gray-300"> 11 Kamina Close Wuse Zone 3, Abuja,Nigeria</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 text-grassgreen flex-shrink-0" size={18} />
-                <a href="tel:+2348012345678" className="text-gray-300 hover:text-grassgreen transition-colors">+234 801 234 5678</a>
+                <a href="tel:+2348036046209" className="text-gray-300 hover:text-grassgreen transition-colors">+2348036046209</a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 text-grassgreen flex-shrink-0" size={18} />
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2023 LAIJIB NIG. LTD. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2025 LAIJIB STEEL NIG. LTD. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 text-sm hover:text-grassgreen transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 text-sm hover:text-grassgreen transition-colors">Terms of Service</a>
