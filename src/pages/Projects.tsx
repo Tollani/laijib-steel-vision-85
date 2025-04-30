@@ -45,7 +45,7 @@ const Projects = () => {
       title: 'Commercial Building',
       category: 'infrastructure',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27 (1).jpeg',
-      location: '',
+      location: 'Abuja, Nigeria',
     },
     {
       id: '5',
