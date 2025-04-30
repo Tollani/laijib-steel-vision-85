@@ -17,71 +17,60 @@ const Projects = () => {
 
   const [activeCategory, setActiveCategory] = useState('all');
 
-  // Sample projects data
+  // projects data
   const projectsData = [
     {
       id: '1',
       title: 'Commercial Office Tower',
       category: 'commercial',
-      image: '/lovable-uploads/7547f88b-3fb4-448e-a802-8983ddd56f46.jpg',
-      location: 'Abuja Central Business District',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41 (1).jpeg',
+      location: 'Guzape, FCT Abuja',
     },
     {
       id: '2',
       title: 'Industrial Factory Complex',
       category: 'industrial',
-      image: 'https://images.unsplash.com/photo-1433832597046-4f10e10ac764',
-      location: 'Kaduna Industrial Zone',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
+      location: 'Kano, Nigeria',
     },
     {
       id: '3',
       title: 'Luxury Residential Building',
       category: 'residential',
-      image: 'https://images.unsplash.com/photo-1493397212122-2b85dda8106b',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41.jpeg
+',
       location: 'Maitama, Abuja',
     },
     {
       id: '4',
-      title: 'Highway Bridge Construction',
+      title: 'Commercial Building',
       category: 'infrastructure',
-      image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716',
-      location: 'Lagos-Ibadan Expressway',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27 (1).jpeg
+',
+      location: '',
     },
     {
       id: '5',
       title: 'Shopping Mall Development',
       category: 'commercial',
-      image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511',
-      location: 'Port Harcourt City Center',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.28.jpeg',
+      location: 'Wuse 2, Abuja',
     },
     {
       id: '6',
-      title: 'Manufacturing Plant',
+      title: 'Luxury Apartment',
       category: 'industrial',
-      image: 'https://images.unsplash.com/photo-1487887235947-a955ef187fcc',
-      location: 'Kano Industrial Estate',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27.jpeg',
+      location: 'Lifecamp, FCT Abuja',
     },
     {
       id: '7',
       title: 'Apartment Complex',
       category: 'residential',
-      image: 'https://images.unsplash.com/photo-1433832597046-4f10e10ac764',
-      location: 'Lekki, Lagos',
+      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.42.jpeg',
+      location: 'Jabi, Abuja',
     },
-    {
-      id: '8',
-      title: 'Railway Station Framework',
-      category: 'infrastructure',
-      image: 'https://images.unsplash.com/photo-1493397212122-2b85dda8106b',
-      location: 'Abuja-Kaduna Line',
-    },
-    {
-      id: '9',
-      title: 'Corporate Headquarters',
-      category: 'commercial',
-      image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511',
-      location: 'Victoria Island, Lagos',
-    },
+    
   ];
 
   // Filter projects based on active category
