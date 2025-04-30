@@ -7,27 +7,27 @@ import SectionTitle from '@/components/common/SectionTitle';
 import ProjectCard from '@/components/common/ProjectCard';
 
 const FeaturedProjectsSection = () => {
-  // Sample data for featured projects
+  // data for featured projects
   const featuredProjects = [
     {
       id: '1',
       title: 'Commercial Office Tower',
       category: 'Commercial',
-      image: '/lovable-uploads/photo_6028199742439277780_x (1).jpg',
-      location: 'Abuja Central Business District',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41 (1).jpeg',
+      location: 'Guzape , FCT, Abuja',
     },
     {
       id: '2',
       title: 'Industrial Factory Complex',
       category: 'Industrial',
-      image: '/lovable-uploads/photo_6028199742439277781_x (1).jpg',
-      location: 'Kaduna Industrial Zone',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
+      location: 'Kano ,Nigeria',
     },
     {
       id: '3',
       title: 'Luxury Residential Building',
       category: 'Residential',
-      image: '/lovable-uploads/photo_6028199742439277763_y (2).jpg',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41.jpeg',
       location: 'Maitama, Abuja',
     },
   ];
