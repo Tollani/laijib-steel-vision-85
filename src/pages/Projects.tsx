@@ -21,14 +21,14 @@ const Projects = () => {
   const projectsData = [
     {
       id: '1',
-      title: 'Commercial Office Tower',
+      title: 'Luxury Gates',
       category: 'commercial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41 (1).jpeg',
       location: 'Guzape, FCT Abuja',
     },
     {
       id: '2',
-      title: 'Industrial Factory Complex',
+      title: 'Industrial Factory',
       category: 'industrial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
       location: 'Kano, Nigeria',
@@ -42,17 +42,17 @@ const Projects = () => {
     },
     {
       id: '4',
-      title: 'Commercial Building',
+      title: 'Cool Cover and Canopy',
       category: 'infrastructure',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27 (1).jpeg',
-      location: 'Abuja, Nigeria',
+      location: 'Wuse, Abuja, Nigeria',
     },
     {
       id: '5',
       title: 'Shopping Mall Development',
       category: 'commercial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.28.jpeg',
-      location: 'Wuse 2, Abuja',
+      location: 'Lifecamp, Abuja',
     },
     {
       id: '6',
