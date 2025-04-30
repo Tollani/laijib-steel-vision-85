@@ -10,19 +10,19 @@ const TestimonialsSection = () => {
       quote: "LAIJIB Steel delivered our commercial building project ahead of schedule with exceptional quality. Their attention to detail and structural expertise made a complex project seamless.",
       name: "Adamu Johnson",
       title: "Project Manager",
-      company: "Everest Properties Ltd",
+      company: "Cosgrove Realties",
     },
     {
       quote: "The structural integrity of our factory expansion was critical for our operations. LAIJIB's engineering team provided innovative solutions that saved us time and resources.",
-      name: "Chioma Okafor",
-      title: "CEO",
-      company: "NexGen Manufacturing",
+      name: "Faruk Seluman",
+      title: "Senior Supervisor",
+      company: "Brains and Hammer",
     },
     {
       quote: "Working with LAIJIB Steel was a pleasure. Their communication throughout our project was excellent, and they accommodated design changes efficiently.",
       name: "Mohammed Ibrahim",
       title: "Director",
-      company: "Ibrahim Developments",
+      company: "Bilad Realties",
     },
   ];
 
