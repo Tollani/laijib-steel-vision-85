@@ -26,6 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   };
 
   const handleImageError = () => {
+    console.log(`Failed to load image: ${image}`);
     setIsLoading(false);
     setHasError(true);
   };
@@ -38,14 +39,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <div className="w-10 h-10 border-4 border-orange border-t-transparent rounded-full animate-spin"></div>
           </div>
         )}
-        <img
-          src={image}
-          alt={title}
-          className={`h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
-          onLoad={handleImageLoad}
-          onError={handleImageError}
-        />
-        {hasError && (
+        {!hasError ? (
+          <img
+            src={image}
+            alt={title}
+            className={`h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+            onLoad={handleImageLoad}
+            onError={handleImageError}
+          />
+        ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
             <div className="text-gray-500 text-lg">Image unavailable</div>
           </div>
