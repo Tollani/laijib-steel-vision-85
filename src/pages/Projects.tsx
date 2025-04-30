@@ -35,7 +35,7 @@ const Projects = () => {
     },
     {
       id: '3',
-      title: 'Luxury Residential Building',
+      title: 'Residential Building',
       category: 'residential',
       image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41.jpeg
 ',
