@@ -11,14 +11,14 @@ const FeaturedProjectsSection = () => {
   const featuredProjects = [
     {
       id: '1',
-      title: 'Commercial Office Tower',
+      title: 'Luxury Gates',
       category: 'Commercial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41 (1).jpeg',
       location: 'Guzape , FCT, Abuja',
     },
     {
       id: '2',
-      title: 'Industrial Factory Complex',
+      title: 'Industrial Factory',
       category: 'Industrial',
       image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
       location: 'Kano ,Nigeria',
