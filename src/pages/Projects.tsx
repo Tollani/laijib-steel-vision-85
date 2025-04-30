@@ -30,47 +30,44 @@ const Projects = () => {
       id: '2',
       title: 'Industrial Factory Complex',
       category: 'industrial',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.40.jpeg',
       location: 'Kano, Nigeria',
     },
     {
       id: '3',
       title: 'Residential Building',
       category: 'residential',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41.jpeg
-',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.41.jpeg',
       location: 'Maitama, Abuja',
     },
     {
       id: '4',
       title: 'Commercial Building',
       category: 'infrastructure',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27 (1).jpeg
-',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27 (1).jpeg',
       location: '',
     },
     {
       id: '5',
       title: 'Shopping Mall Development',
       category: 'commercial',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.28.jpeg',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.28.jpeg',
       location: 'Wuse 2, Abuja',
     },
     {
       id: '6',
       title: 'Luxury Apartment',
       category: 'industrial',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27.jpeg',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.00.27.jpeg',
       location: 'Lifecamp, FCT Abuja',
     },
     {
       id: '7',
       title: 'Apartment Complex',
       category: 'residential',
-      image: 'lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.42.jpeg',
+      image: '/lovable-uploads/WhatsApp Image 2025-04-24 at 13.01.42.jpeg',
       location: 'Jabi, Abuja',
     },
-    
   ];
 
   // Filter projects based on active category
