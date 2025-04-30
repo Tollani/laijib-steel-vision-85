@@ -1,7 +1,8 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ImageLoader from './ImageLoader';
 
 interface ProjectCardProps {
   id: string;
@@ -18,40 +19,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   image,
   location,
 }) => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [hasError, setHasError] = useState(false);
-
-  const handleImageLoad = () => {
-    setIsLoading(false);
-  };
-
-  const handleImageError = () => {
-    console.log(`Failed to load image: ${image}`);
-    setIsLoading(false);
-    setHasError(true);
-  };
-
   return (
     <div className="group relative overflow-hidden rounded-lg transition-all duration-500 hover:shadow-xl transform hover:-translate-y-1">
       <div className="aspect-w-16 aspect-h-10 overflow-hidden bg-gray-200">
-        {isLoading && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-10 h-10 border-4 border-orange border-t-transparent rounded-full animate-spin"></div>
-          </div>
-        )}
-        {!hasError ? (
-          <img
-            src={image}
-            alt={title}
-            className={`h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
-            onLoad={handleImageLoad}
-            onError={handleImageError}
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-            <div className="text-gray-500 text-lg">Image unavailable</div>
-          </div>
-        )}
+        <ImageLoader
+          src={image}
+          alt={title}
+          aspectRatio="video"
+          className="transition-transform duration-500 group-hover:scale-110"
+          loadingColor="orange"
+        />
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent opacity-90"></div>
       <div className="absolute bottom-0 left-0 p-6 text-white transform transition-transform duration-300 w-full">

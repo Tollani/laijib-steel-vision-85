@@ -19,12 +19,15 @@ const ImageLoader: React.FC<ImageLoaderProps> = ({
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
+  // Ensure src has a leading slash if it's a relative path
+  const formattedSrc = src.startsWith('http') || src.startsWith('/') ? src : `/${src}`;
+
   const handleImageLoad = () => {
     setIsLoading(false);
   };
 
   const handleImageError = () => {
-    console.log(`Failed to load image: ${src}`);
+    console.log(`Failed to load image: ${formattedSrc}`);
     setIsLoading(false);
     setHasError(true);
   };
@@ -48,7 +51,7 @@ const ImageLoader: React.FC<ImageLoaderProps> = ({
       )}
       {!hasError ? (
         <img
-          src={src}
+          src={formattedSrc}
           alt={alt}
           className={`w-full h-full object-cover ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
           onLoad={handleImageLoad}
