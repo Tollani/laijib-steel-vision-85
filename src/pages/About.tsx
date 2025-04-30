@@ -9,28 +9,26 @@ const About = () => {
   // Team members data
   const teamMembers = [
     {
-      name: 'Aisha Ibrahim',
+      name: 'Olaiwola A. Aliu',
       position: 'Chief Executive Officer',
-      bio: 'With over 20 years in the construction industry, Aisha brings extensive leadership and industry knowledge to LAIJIB Steel.',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&crop=faces&q=80',
+      bio: 'With over 20 years in the construction industry,Engr. Olaiwola brings extensive leadership and industry knowledge to LAIJIB Steel.',
+      
     },
     {
-      name: 'Emmanuel Okafor',
+      name: 'Engr. Badmus',
       position: 'Chief Engineer',
-      bio: 'Emmanuel leads our engineering team with his expertise in structural design and innovative steel construction solutions.',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&auto=format&fit=crop&crop=faces&q=80',
-    },
+      bio: 'Engr. Badmus leads our engineering team with his expertise in structural design and innovative steel construction solutions.',
+     
     {
-      name: 'Fatima Abdullahi',
-      position: 'Operations Manager',
-      bio: 'Fatima oversees all project operations, ensuring efficient execution and delivery of every steel construction project.',
-      image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&auto=format&fit=crop&crop=faces&q=80',
-    },
+      name: 'Omotolani Ajibona',
+      position: 'I.T and Digital Marketing',
+      bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing ,Building and maintaing the websites',
+      
     {
       name: 'Oluwaseun Adegoke',
       position: 'Project Manager',
       bio: 'Oluwaseun specializes in managing complex steel construction projects with a focus on quality and client satisfaction.',
-      image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=400&auto=format&fit=crop&crop=faces&q=80',
+     
     },
   ];
 
