@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Shield } from 'lucide-react';
@@ -19,6 +19,18 @@ interface ServiceCardProps {
 }
 
 const ServiceCard = ({ service, index }: ServiceCardProps) => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
+  const handleImageError = () => {
+    setIsLoading(false);
+    setHasError(true);
+  };
+
   return (
     <div 
       key={service.id} 
@@ -26,12 +38,24 @@ const ServiceCard = ({ service, index }: ServiceCardProps) => {
       className={`grid grid-cols-1 md:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
     >
       <div className={`order-2 ${index % 2 === 1 ? 'md:order-1' : 'md:order-2'}`}>
-        <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
+        <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl bg-gray-200 relative">
+          {isLoading && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-10 h-10 border-4 border-orange border-t-transparent rounded-full animate-spin"></div>
+            </div>
+          )}
           <img 
             src={service.image} 
             alt={service.title}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+            onLoad={handleImageLoad}
+            onError={handleImageError}
           />
+          {hasError && (
+            <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+              <div className="text-gray-500 text-lg">Image unavailable</div>
+            </div>
+          )}
         </div>
       </div>
       
