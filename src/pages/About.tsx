@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -12,23 +11,25 @@ const About = () => {
       name: 'Olaiwola A. Aliu',
       position: 'Chief Executive Officer',
       bio: 'With over 20 years in the construction industry,Engr. Olaiwola brings extensive leadership and industry knowledge to LAIJIB Steel.',
-      
+      image: '/placeholder.svg',
     },
     {
       name: 'Engr. Badmus',
       position: 'Chief Engineer',
       bio: 'Engr. Badmus leads our engineering team with his expertise in structural design and innovative steel construction solutions.',
-     
+      image: '/placeholder.svg',
+    },
     {
       name: 'Omotolani Ajibona',
       position: 'I.T and Digital Marketing',
-      bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing ,Building and maintaing the websites',
-      },
+      bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing, building and maintaining the websites',
+      image: '/placeholder.svg',
+    },
     {
       name: 'Oluwaseun Adegoke',
       position: 'Project Manager',
       bio: 'Oluwaseun specializes in managing complex steel construction projects with a focus on quality and client satisfaction.',
-     
+      image: '/placeholder.svg',
     },
   ];
 
