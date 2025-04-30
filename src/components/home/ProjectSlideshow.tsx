@@ -6,6 +6,7 @@ import {
   CarouselItem,
   type CarouselApi,
 } from '@/components/ui/carousel';
+import ImageLoader from '@/components/common/ImageLoader';
 
 const ProjectSlideshow = () => {
   const [api, setApi] = React.useState<CarouselApi>();
@@ -54,10 +55,11 @@ const ProjectSlideshow = () => {
           {projectImages.map((image, index) => (
             <CarouselItem key={index}>
               <div className="overflow-hidden">
-                <img 
+                <ImageLoader 
                   src={image.src} 
                   alt={image.alt} 
-                  className="w-full object-cover"
+                  aspectRatio="video"
+                  className="w-full"
                 />
               </div>
             </CarouselItem>

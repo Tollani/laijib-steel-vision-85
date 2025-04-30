@@ -4,6 +4,7 @@ import SectionTitle from '@/components/common/SectionTitle';
 import ProjectCard from '@/components/common/ProjectCard';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   // Project categories
@@ -180,7 +181,7 @@ const Projects = () => {
             Ready to discuss your next steel construction project? Contact our team for expert guidance and solutions tailored to your needs.
           </p>
           <Button asChild size="lg" className="bg-orange hover:bg-orange-light">
-            <a href="/contact">Contact Us Today</a>
+            <Link to="/contact">Contact Us Today</Link>
           </Button>
         </div>
       </section>

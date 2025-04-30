@@ -48,4 +48,3 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 };
 
 export default ServiceCard;
-
