@@ -23,7 +23,7 @@ const About = () => {
       name: 'Omotolani Ajibona',
       position: 'I.T and Digital Marketing',
       bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing ,Building and maintaing the websites',
-      
+      },
     {
       name: 'Oluwaseun Adegoke',
       position: 'Project Manager',
