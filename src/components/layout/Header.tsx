@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Whatsapp } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Logo from '../common/Logo';
 
@@ -92,7 +92,7 @@ const Header = () => {
               asChild
             >
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Whatsapp size={18} className="mr-2" /> Get a Quote
+                <MessageCircle size={18} className="mr-2" /> Get a Quote
               </a>
             </Button>
           </nav>
