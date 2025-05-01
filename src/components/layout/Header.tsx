@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Whatsapp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Logo from '../common/Logo';
 
@@ -17,6 +17,10 @@ const Header = () => {
     { name: 'About Us', path: '/about' },
     { name: 'Contact', path: '/contact' },
   ];
+
+  // WhatsApp contact number
+  const whatsappNumber = "+2348036046209";
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hello,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20services.`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,8 +86,14 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-redaccent hover:bg-redaccent-light w-full">
-              <Phone size={18} className="mr-2" /> Get a Quote
+            <Button 
+              size="sm" 
+              className="bg-redaccent hover:bg-redaccent-light w-full"
+              asChild
+            >
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                <Whatsapp size={18} className="mr-2" /> Get a Quote
+              </a>
             </Button>
           </nav>
         </div>

@@ -11,25 +11,21 @@ const About = () => {
       name: 'Olaiwola A. Aliu',
       position: 'Chief Executive Officer',
       bio: 'With over 20 years in the construction industry,Engr. Olaiwola brings extensive leadership and industry knowledge to LAIJIB Steel.',
-      image: '/placeholder.svg',
     },
     {
       name: 'Engr. Badmus',
       position: 'Chief Engineer',
       bio: 'Engr. Badmus leads our engineering team with his expertise in structural design and innovative steel construction solutions.',
-      image: '/placeholder.svg',
     },
     {
       name: 'Omotolani Ajibona',
       position: 'I.T and Digital Marketing',
-      bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing, building and maintaining the websites',
-      image: '/placeholder.svg',
+      bio: 'Omotola oversees all I.T related issues, ensuring efficient execution and delivery of digital marketing, Building and maintaining the websites',
     },
     {
       name: 'Oluwaseun Adegoke',
       position: 'Project Manager',
       bio: 'Oluwaseun specializes in managing complex steel construction projects with a focus on quality and client satisfaction.',
-      image: '/placeholder.svg',
     },
   ];
 
@@ -206,7 +202,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Leadership Team */}
+      {/* Leadership Team - Modified to remove images */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle 
@@ -217,17 +213,10 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-steel">{member.name}</h3>
                   <p className="text-orange font-medium mb-3">{member.position}</p>
-                  <p className="text-gray-600 text-sm">{member.bio}</p>
+                  <p className="text-gray-600">{member.bio}</p>
                 </div>
               </div>
             ))}
